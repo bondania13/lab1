@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#7ED4DF"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/textViewam"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/white"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Конвертер валют. Америка"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView2am"
+        android:layout_width="270dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="20dp"
+        android:text="Оберіть валюту, з якої конвертуємо"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <Spinner
+        android:id="@+id/currencies_from_spinner_am"
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/white" />
+
+    <TextView
+        android:id="@+id/textView3am"
+        android:layout_width="270dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="20dp"
+        android:text="Оберіть валюту, на яку конвертуємо"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <Spinner
+        android:id="@+id/currencies_to_spinner_am"
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/white" />
+
+    <TextView
+        android:id="@+id/textView5am"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Введіть суму:"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editTextNumber2am"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/convert_am_button"
+        android:gravity="center"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="60dp"
+        android:text="Конвертувати!"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView4am"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Результат:"
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+
+
+    <EditText
+        android:id="@+id/editTextNumberam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="number" />
+
+</LinearLayout>
